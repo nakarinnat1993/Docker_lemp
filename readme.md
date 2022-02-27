@@ -11,7 +11,7 @@ docker ps -a (all start and stop)
 docker run {image name} or {image id}
 Ex. docker run hello-world
 
-## Run Image ที่เราสร้างขึ้นมา เป็น Container
+## Run Image to Container
 docker run --name {app_name} -d -p 8800:80 {image}
 -d (Background)
 -p (Port Host Machine:Docker Host)
